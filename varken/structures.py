@@ -288,6 +288,7 @@ class SonarrQueue(NamedTuple):
     title: str = None
     trackedDownloadState: str = None
     trackedDownloadStatus: str = None
+    seasonNumber: int = None
     seriesId: int = None
     errorMessage: str = None
     outputPath: str = None
