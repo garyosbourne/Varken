@@ -273,6 +273,7 @@ class SonarrEpisode(NamedTuple):
 
 
 class SonarrQueue(NamedTuple):
+    added: str = None
     customFormats: str = None
     customFormatScore: int = None
     downloadClient: str = None

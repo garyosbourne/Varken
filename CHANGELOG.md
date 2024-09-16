@@ -14,10 +14,12 @@
             - rootFolderPath: str = None
             - statistics: str = None
         - Sonarr
-            - languages: dict = None
-            - seasonNumber: int = None
+            - added: str = None
             - customFormats: str = None
             - customFormatScore: int = None
+            - languages: dict = None
+            - seasonNumber: int = None
+
 
 **Notes:**
 - 
