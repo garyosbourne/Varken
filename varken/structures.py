@@ -273,6 +273,7 @@ class SonarrEpisode(NamedTuple):
 
 
 class SonarrQueue(NamedTuple):
+    customFormats: str = None
     downloadClient: str = None
     downloadId: str = None
     episodeId: int = None
@@ -331,6 +332,7 @@ class RadarrMovie(NamedTuple):
     secondaryYearSourceId: int = None
     sizeOnDisk: float = None
     sortTitle: str = None
+    statistics: str = None
     status: str = None
     studio: str = None
     tags: list = None
