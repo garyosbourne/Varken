@@ -316,6 +316,7 @@ class RadarrMovie(NamedTuple):
     minimumAvailability: str = None
     monitored: bool = None
     movieFile: dict = None
+    movieFileId: int = None
     originalTitle: str = None
     overview: str = None
     path: str = None
