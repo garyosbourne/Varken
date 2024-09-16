@@ -17,6 +17,7 @@
             - languages: dict = None
             - seasonNumber: int = None
             - customFormats: str = None
+            - customFormatScore: int = None
 
 **Notes:**
 - 
