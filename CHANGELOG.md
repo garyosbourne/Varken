@@ -7,19 +7,19 @@
 **Merged pull requests:**
 
 **Fixed bugs:**
-- Radarr:
-    - Added to Structures.py
-        - Radarr
-            - movieFileId: int = None
-            - rootFolderPath: str = None
-            - statistics: str = None
-        - Sonarr
-            - added: str = None
-            - customFormats: str = None
-            - customFormatScore: int = None
-            - downloadClientHasPostImportCategory: int = None
-            - languages: dict = None
-            - seasonNumber: int = None
+- Added to Structures.py
+    - Radarr
+        - movieFileId: int = None
+        - rootFolderPath: str = None
+        - statistics: str = None
+    - Sonarr
+        - added: str = None
+        - customFormats: str = None
+        - customFormatScore: int = None
+        - downloadClientHasPostImportCategory: int = None
+        - episodeHasFile: str = None
+        - languages: dict = None
+        - seasonNumber: int = None
 
 
 **Notes:**

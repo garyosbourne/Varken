@@ -279,6 +279,7 @@ class SonarrQueue(NamedTuple):
     downloadClient: str = None
     downloadClientHasPostImportCategory: str = None
     downloadId: str = None
+    episodeHasFile: str = None
     episodeId: int = None
     id: int = None
     indexer: str = None
