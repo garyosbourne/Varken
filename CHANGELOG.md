@@ -17,6 +17,7 @@
             - added: str = None
             - customFormats: str = None
             - customFormatScore: int = None
+            - downloadClientHasPostImportCategory: int = None
             - languages: dict = None
             - seasonNumber: int = None
 
