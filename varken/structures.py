@@ -330,6 +330,7 @@ class RadarrMovie(NamedTuple):
     physicalRelease: str = None
     qualityProfileId: int = None
     ratings: dict = None
+    releaseDate: int = None
     rootFolderPath: str = None
     runtime: int = None
     secondaryYear: int = None
