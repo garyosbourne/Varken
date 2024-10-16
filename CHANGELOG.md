@@ -1,5 +1,20 @@
 # Change Log
 
+## [v1.3](https://github.com/garyosbourne/Varken/tree/develop) (2024-10-16)
+
+**Implemented enhancements:**
+
+**Merged pull requests:**
+
+**Fixed bugs:**
+- Added to Structures.py
+    - Radarr
+        - lastSearchTime: int = None
+    - Sonarr
+
+**Notes:**
+- 
+
 ## [v1.2](https://github.com/garyosbourne/Varken/tree/develop) (2024-10-15)
 
 **Implemented enhancements:**

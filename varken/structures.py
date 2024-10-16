@@ -320,6 +320,7 @@ class RadarrMovie(NamedTuple):
     imdbId: str = None
     inCinemas: str = None
     isAvailable: bool = None
+    lastSearchTime: int = None
     minimumAvailability: str = None
     monitored: bool = None
     movieFile: dict = None
